@@ -1,7 +1,7 @@
 const content = document.querySelector(".content");
 const searchInput = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");
-const colorOfName = document.getElementById("character__name");
+
 
 
 
@@ -91,4 +91,8 @@ searchInput.addEventListener("keyup", function (event) {
         filterPokemon(); // Suche ausführen, wenn Enter gedrückt wird
     }
 });
+
+
+
+
 
